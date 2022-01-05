@@ -1,0 +1,46 @@
+#aaa
+{
+    border: 5px ridge orange;
+    margin: 50px;
+    font-size:60px;
+    font-family:system;
+    color:blue;
+}
+#jj
+{
+    background-color:goldenrod;
+    padding:15px;
+    width:20%;
+    border-radius:300px;
+    box-shadow:blueviolet;
+}
+#jj:hover
+{
+    background-color:burlywood;
+}
+#ii
+{
+    height:30px;
+}
+::placeholder
+{
+    font-size: 20px;
+}
+table
+{
+    padding: 4px;
+    background-color: rgb(50,50, 50);
+}
+th,td
+{
+    color: white;
+}
+footer
+{
+    margin: 5px;
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+}

@@ -1,0 +1,77 @@
+            body
+            {
+                background-color: black;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .sa
+            {
+                background-color: white;
+                width: 100%;
+                background-color:indigo;
+                color: white;
+                text-align: center;
+                font-size: 40px;
+                padding-top: 10px;
+                margin-top: 15px;
+            }
+            .a1:hover
+            {
+                color: gold;
+            }
+            .ta
+            {
+                background-color: goldenrod;
+                font-size: 20px;
+                width: 33.3%;
+                text-align: center;
+            }
+            h1
+            {
+                text-align: center;
+                color: white;
+                font-size: 35px;
+            }
+            .sb
+            {
+                margin: 15px;
+                background-color: rgb(50,50,50);
+            }
+            #b1
+            {
+                background-color:goldenrod;
+			    padding:15px;
+			    width:20%;
+			    border-radius:300px;
+            }
+            #b1:hover
+            {
+                background-color: burlywood;
+            }
+            footer
+            {
+                background-color: indigo;
+                padding: 15px;
+                margin: 15px;
+                color: white;
+            }
+            p
+            {
+                color: white;
+                padding: 15px;
+            }
+            pre
+            {
+                color: white;
+                padding: 15px;
+                font-size: 18px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            a:link,a:visited
+            {
+                color: red;
+
+            }
+            .a1:link,.a1:visited
+            {
+                color: blue;
+            }
