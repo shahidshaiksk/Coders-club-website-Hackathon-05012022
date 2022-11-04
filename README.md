@@ -1,18 +1,85 @@
-# Coders-club-website-Hackathon-05012022
-A webpage made on the 2 hour offline hackathon based on Coders Club homepage.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Coders Club
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpeg">
+        <link rel="stylesheet" href="./style1.css">
+    </head>
+    <body>
+        <section class='sa'>
+            <a name="top"></a>
+            <center>
+                <img src="./img/hero.svg" alt=""><br>
+                <a class="a1">Coders Club</a><br>
+            </center>
+        </section>
+        </section>
+        <table style="width:100%;">
+            <tr>
+                <td class="ta"><a href="#about" class="a1">About</a></td>
+                <td class="ta"><a href="#events" class="a1">Events</a></td>
+                <td class="ta"><a href="#rf" class="a1">Registration Form</a></td>
+            </tr>
+        </table>
+        <section class="sb">
+            <a name="about"></a>
+            <br>
+            <h1>About</h1>
+            <pre>
+    Code powers our digital world. Coding is an incredible skill that engages both our creative and problem solving skills. In today’s world that is increasingly influenced by software,
+     we need to produce graduates with outstanding problem solving and coding abilities. Coders’ Club at GPREC strives to meet this objective.
 
-Screenshots of the output of the page are given below:
+    Objectives :
 
-![Screenshot1](https://user-images.githubusercontent.com/87891298/148554487-0dc78543-00ad-4379-b881-fe8b61048547.png)
+            Solve problems using Math, Data structures & Algorithms.
+            Write correct, efficient and elegant code.
+            Crack the coding interviews at product based companies.
+            Compete with students studying at other top institutes.
+            Clear all the rounds in programming contests like CodeVita.
+            Participate in Hackathons.
+            </pre>
+        </section>
+        <section class="sb">
+            <a name="events"></a>
+            <br>
+            <h1>Events</h1>
+            <pre>
 
-![Screenshot2](https://user-images.githubusercontent.com/87891298/148554553-ea7893eb-a5e6-4904-8f2a-3bf0dc403180.png)
+    Regular Classes
+        Regular classes were guided by Sri M. Imtiaz Ur Rahaman of Computer Science & Engineering department. Different topics based on Math, Data structures & Algorithms, 
+        Coding and Problem solving were covered.
 
-![Screenshot3](https://user-images.githubusercontent.com/87891298/148554574-3661078b-caab-45a6-98f4-fc4c70ea8319.png)
+    Review Classes
+        These classes were supervised to clear the doubts of other students by the volunteers of the club. These classes also helped students to interact with their seniors.
 
-![Screenshot4](https://user-images.githubusercontent.com/87891298/148554583-9a67330a-5daf-4e06-acd9-164be78391d2.png)
+    Programming Contests
+        Different contests based on coding were conducted on different programming platforms like HackerRank etc.,
 
-![Screenshot5](https://user-images.githubusercontent.com/87891298/148554601-2651f947-2756-41fe-8447-3a4eded26a7c.png)
+    Activities
+        Many activities which are helpful to the students in their interview process like technical group discussion, coding quiz, finding the output etc., were conducted on alternative weeks
 
-![Screenshot6](https://user-images.githubusercontent.com/87891298/148554608-83c128dc-e070-479f-9a3a-149dd0b92473.png)
-
-![Screenshot7](https://user-images.githubusercontent.com/87891298/148554615-c3fd08dd-22c9-4e6e-bd60-6475e2a1652d.png)
+    To know more,<a href="https://www.gprec.ac.in/campus-life/student-clubs/coders-club/" target="new"> refer this page.</a>
+            </pre>
+        </section>
+        <section class="sb">
+            <a name="rf"></a>
+            <br>
+            <h1>Registration</h1><br>
+            
+            <center>
+                <button id='b1' onclick="document.getElementById('if1').style.display='block';document.getElementById('b1').style.display='none';">REGISTER</button>
+                <iframe id="if1" style="display: none;" src="/form1.html" width="50%" height="300px" frameborder="0px"></iframe>
+            </center>
+        </section>
+        <center>
+            <section class="sa">
+            <a class="a1">Coders Club</a><br><br>
+            <div style="font-size: 25px;">Contact Info : </div>
+            <a href="https://www.linkedin.com/school/g.-pulla-reddy-engineering-college/"><img src="./img/linkedin.png" width="33px" height="33px"></a> <a href="https://twitter.com/GPRECK"><img src="./img/twitter.png" width="31x" height="31px"></a> <a href="https://www.facebook.com/GPREC.Kurnool"><img src="./img/fb.png" width="33px" height="33px"></a> <a href="https://www.instagram.com/"><img src="./img/insta.png" width="30px" height="30px"></a>
+            <br><a href="#top"><img src="/img/bt.png" width="30px" height="30px"></a>
+            </section>
+        </center>
+    </body>
+</html>
